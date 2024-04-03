@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 3px 6px 10px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    box-sizing: border-box;
+    /* background-color: #484848; */
+}
+
+.area-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: #0ac5b4;
+    box-shadow: 0px 3px 6px rgba(199, 199, 199, 0.5);
+
+    padding: 10px 15px;
+    cursor: pointer;
+}
